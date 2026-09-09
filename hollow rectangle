@@ -1,0 +1,11 @@
+def print_hollow_rectangle(width, height):
+    for i in range(height):
+        if i == 0 or i == height - 1:
+            print("*" * width)
+        else:
+             print("*" + " " * (width - 2) + "*")
+
+rect_width = 8
+rect_height = 4
+
+print_hollow_rectangle(rect_width, rect_height)

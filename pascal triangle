@@ -1,0 +1,4 @@
+rows = 5
+for i in range(rows):
+     row_str = " ".join(str(11**i))
+     print(row_str.center(rows * 2))
